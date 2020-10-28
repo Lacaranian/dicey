@@ -18,7 +18,7 @@ class Die extends React.Component {
 		return (
 			<div>
 				<button onClick={() => this.do_roll()}>Roll {this.props.sides}-Sided Die</button>
-				<span>{this.state.die_roll}</span>
+				<span style = {{fontSize: 30}}>{this.state.die_roll}</span>
 			</div>
 		);
 	}	
