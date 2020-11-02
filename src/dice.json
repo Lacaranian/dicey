@@ -1,0 +1,30 @@
+[
+	{
+		"img": "d4.png",
+		"sides": 4
+	},
+	{
+		"img": "d6.png",
+		"sides": 6
+	},
+	{
+		"img": "d8.png",
+		"sides": 8
+	},
+	{
+		"img": "d10.png",
+		"sides": 10
+	},
+	{
+		"img": "d12.png",
+		"sides": 12
+	},
+	{
+		"img": "d20.png",
+		"sides": 20
+	},
+	{
+		"img": "d100.png",
+		"sides": 100
+	}
+]
