@@ -1,13 +1,13 @@
 
 import './App.css';
 import Die from './components/die.js';
-let dice = [{sides:4},{sides:6},{sides:8},{sides:10},{sides:12},{sides:20},{sides:100}]
+import dice from './dice.json';
 
 function App() {
   return (
     <div className="App">
 {dice.map((item)=>(
-  <Die sides = {item.sides}/> 
+  <Die sides={item.sides} img={item.img}/> 
 ))}
    
     </div>
