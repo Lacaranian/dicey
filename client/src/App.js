@@ -1,9 +1,32 @@
 import React from 'react'
 import './App.css';
 import CharacterSheet from './pages/character.js'
+import {
+  BrowserRouter,
+  Switch,
+  Route
+} from "react-router-dom";
 
 function App() {
-  return (<CharacterSheet/>);
+  return (
+<BrowserRouter>
+  <div>
+    <Switch>
+      <Route exact path ="/">
+         <CharacterSheet/>
+      </Route>
+      <Route exact path = "/signin">
+
+      </Route>
+      <Route exact path = "/signup">
+
+      </Route>
+      <Route>
+
+      </Route>
+    </Switch>
+  </div>
+</BrowserRouter>);
 }
 
 {/* <Die sides="4" />

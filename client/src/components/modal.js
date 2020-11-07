@@ -23,7 +23,7 @@ function DiceModal(){
         keyboard={false}
       >
         <Modal.Header closeButton>
-          <Modal.Title>Modal title</Modal.Title>
+          <Modal.Title>Dice to Roll</Modal.Title>
         </Modal.Header>
         <Modal.Body>
         {dice.map((item)=>(
