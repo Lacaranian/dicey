@@ -1,17 +1,9 @@
-
+import React from 'react'
 import './App.css';
-import Die from './components/die.js';
-import dice from './dice.json';
+import CharacterSheet from './pages/character.js'
 
 function App() {
-  return (
-    <div className="App">
-{dice.map((item)=>(
-  <Die sides={item.sides} img={item.img}/> 
-))}
-   
-    </div>
-  );
+  return (<CharacterSheet/>);
 }
 
 {/* <Die sides="4" />
