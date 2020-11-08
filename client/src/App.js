@@ -1,6 +1,8 @@
 import React from 'react'
 import './App.css';
 import CharacterSheet from './pages/character.js'
+import NoPage from './pages/nopage'
+import Profile from './pages/profile'
 import {
   BrowserRouter,
   Switch,
@@ -13,7 +15,7 @@ function App() {
   <div>
     <Switch>
       <Route exact path ="/">
-         <CharacterSheet/>
+         <Profile/>
       </Route>
       <Route exact path = "/signin">
 
@@ -21,8 +23,11 @@ function App() {
       <Route exact path = "/signup">
 
       </Route>
+      <Route exact path = "profile/:character">
+      <CharacterSheet/>
+      </Route>
       <Route>
-
+      <NoPage/>
       </Route>
     </Switch>
   </div>
