@@ -8,8 +8,7 @@ import NavTop from '../components/navTop.js'
 function CharacterSheet() {
   return (
     <div className="App">
-<NavTop/>
-
+        <NavTop/>
     </div>
   );
 }
